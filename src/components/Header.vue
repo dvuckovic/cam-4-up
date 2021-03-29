@@ -4,6 +4,11 @@
             <a
                 class="navbar-brand w-100 text-light text-center text-uppercase"
                 href="#">
+                <img
+                    class="mb-1"
+                    width="24"
+                    height="24"
+                    src="../assets/webcam.svg">
                 Welcome
             </a>
             <!-- <div class="container-fluid">
