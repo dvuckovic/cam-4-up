@@ -17,10 +17,6 @@
 export default {
     name: 'CamPlaceholder',
 
-    emits: [
-        'placeholderClick',
-    ],
-
     props: {
         identifier: {
             type: Number,
@@ -36,6 +32,10 @@ export default {
             default: 'rgb(0, 0, 0)',
         },
     },
+
+    emits: [
+        'placeholderClick',
+    ],
 
     computed: {
         cssClasses () {

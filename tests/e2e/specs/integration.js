@@ -1,6 +1,6 @@
 describe('Integration', () => {
     it('renders the layout', () => {
-        cy.visit('/')
+        cy.visit('/');
         cy.contains('.navbar-brand', 'Welcome');
         cy.contains('footer', `© ${new Date().getUTCFullYear()}`);
     });

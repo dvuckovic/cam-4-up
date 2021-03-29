@@ -56,7 +56,7 @@ describe('CamPlaceholder', () => {
     it('emits the `placeholderClick` event in case the identifier is supplied', () => {
         wrapper.trigger('click');
 
-        expect(wrapper.emitted().placeholderClick).toEqual([[identifier]]);
+        expect(wrapper.emitted().placeholderClick).toEqual([ [ identifier ] ]);
 
         delete wrapper.emitted();
     });
